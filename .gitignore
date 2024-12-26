@@ -66,6 +66,7 @@ Thumbs.db
 *.xls
 *.pkl
 *.h5
+glove.6B.100d.txt
 
 # Local development settings
 .env.local
