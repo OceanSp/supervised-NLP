@@ -1,6 +1,16 @@
-# Project Setup
+# 1. Run the Streamlit App
 
-## Required Data Files
+Before running the streamlit app, you need to be sure you have all the models in the folder of your streamlit app. If not you have to run all the notebook (part 2) to create them.
+
+After that, you just have to run :
+```bash
+#in the terminal
+streamlit run main.py
+```
+
+# 2. Run the notebook to create the differents models
+
+### Required Data Files
 
 Before running the notebook, you need to download the GloVe embeddings:
 
@@ -18,7 +28,7 @@ Before running the notebook, you need to download the GloVe embeddings:
    unzip glove.6B.zip
    ```
 
-## Project Structure
+### Project Structure
 
 Place the downloaded file in this structure:
 
@@ -26,3 +36,8 @@ Place the downloaded file in this structure:
   ├── notebooks/
   ├── glove.6B.100d.txt # Place the downloaded file here
   └── README.mdCopy
+
+
+### Create a virtual environement
+
+Don't forget to create a virtual environement and install all packages in requirements.txt before running
